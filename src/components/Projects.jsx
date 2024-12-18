@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaReact, FaNodeJs, FaCss3Alt } from 'react-icons/fa'; // Import icons as needed
+import { SiPostman } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { SiSpringboot } from "react-icons/si";
 import { SiHibernate } from "react-icons/si";
@@ -11,42 +12,36 @@ const projectData = [
     title: 'Employee Management System',
     description: 'Developed a fully functional system enabling CRUD operations on employee records with secure database integration.',
     technologies: [<SiHibernate className="text-black" />, <FaJava className="text-black" />, <SiSpringboot className="text-black" />, <FaAngular className='text-black'/>],
-    demoLink: '#',
     codeLink: '#',
   },
   {
-    title: 'Project Two',
-    description: 'This is a brief description of Project Two.',
-    technologies: [<SiJavascript className="text-black" />, <FaNodeJs className="text-black" />, <SiTailwindcss className="text-black" />],
-    demoLink: '#',
-    codeLink: '#',
+    title: 'JWT Authentication',
+    description: 'Developed a RESTful API for user authentication using Spring Boot, featuring login, signup, and JWT-based token authentication. Integrated Spring Security for authentication, authorization, and BCrypt password encoding. Secured API endpoints with JWT token generation, validation, and tested functionality using Postman.',
+    technologies: [<SiSpringboot className="text-black" />, <FaJava className="text-black" />, <SiPostman className="text-black" />],
+    codeLink: 'https://github.com/nikhilshinde9250/JWT-Authentication.git',
   },
   {
     title: 'Project Three',
     description: 'This is a brief description of Project Three.',
     technologies: [<FaReact className="text-black" />, <SiMongodb className="text-black" />, <FaCss3Alt className="text-black" />],
-    demoLink: '#',
     codeLink: '#',
   },
   {
     title: 'Project Four',
     description: 'This is a brief description of Project Four.',
     technologies: [<FaReact className="text-black" />, <FaNodeJs className="text-black" />, <SiTailwindcss className="text-black" />],
-    demoLink: '#',
     codeLink: '#',
   },
   {
     title: 'Project Five',
     description: 'This is a brief description of Project Five.',
     technologies: [<SiJavascript className="text-black" />, <SiMongodb className="text-black" />, <FaCss3Alt className="text-black" />],
-    demoLink: '#',
     codeLink: '#',
   },
   {
     title: 'Project Six',
     description: 'This is a brief description of Project Six.',
     technologies: [<FaReact className="text-black" />, <FaNodeJs className="text-black" />, <SiTailwindcss className="text-black" />],
-    demoLink: '#',
     codeLink: '#',
   },
 ];
@@ -68,9 +63,6 @@ const Projects = () => {
                 ))}
               </div>
               <div className="flex space-x-4">
-                <a href={project.demoLink} className="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded ">
-                  Demo
-                </a>
                 <a href={project.codeLink} className="bg-gray-700 hover:bg-gray-800 text-white font-bold py-2 px-4 rounded">
                   Code
                 </a>
