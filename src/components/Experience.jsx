@@ -3,7 +3,7 @@ import React from 'react';
 const Experience = () => {
   return (
     <div name="Experience" className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-8 space-y-8">
-      <h1 className="text-4xl font-bold text-gray-800 mb-8">My Experience</h1>
+     <h1 className="text-4xl font-bold text-gray-800 mb-8">My Experience</h1>
       <div className="flex flex-wrap justify-center gap-8">
         {/* Card 1 */}
         <div className="relative w-80 h-56 bg-sky-500 text-white rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:bg-sky-400 p-6">
