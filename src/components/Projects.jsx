@@ -5,14 +5,15 @@ import { FaJava } from "react-icons/fa";
 import { SiSpringboot } from "react-icons/si";
 import { SiHibernate } from "react-icons/si";
 import { FaAngular } from "react-icons/fa";
-import { SiJavascript, SiMongodb, SiTailwindcss } from 'react-icons/si'; // Additional icons
+import { FaWordpress } from 'react-icons/fa';
+import { SiJavascript, SiMongodb, SiTailwindcss,SiHtml5,SiCss3 } from 'react-icons/si'; // Additional icons
 
 const projectData = [
   {
     title: 'Employee Management System',
     description: 'Developed a fully functional system enabling CRUD operations on employee records with secure database integration.',
     technologies: [<SiHibernate className="text-black" />, <FaJava className="text-black" />, <SiSpringboot className="text-black" />, <FaAngular className='text-black'/>],
-    codeLink: '#',
+    codeLink: 'https://github.com/nikhilshinde9250/Employee-Management-System',
   },
   {
     title: 'JWT Authentication',
@@ -21,29 +22,29 @@ const projectData = [
     codeLink: 'https://github.com/nikhilshinde9250/JWT-Authentication.git',
   },
   {
-    title: 'Project Three',
-    description: 'This is a brief description of Project Three.',
-    technologies: [<FaReact className="text-black" />, <SiMongodb className="text-black" />, <FaCss3Alt className="text-black" />],
-    codeLink: '#',
+    title: 'Tulsi College Website',
+    description: 'Developed WordPress Website of Tulsi Computer Science and Information Technology College, Beed. As a WordPress Developer, I developed a fully functional website using WordPress.',
+    technologies: [<FaWordpress/>],
+    codeLink: 'https://tulsicollegeit.in/',
   },
   {
-    title: 'Project Four',
-    description: 'This is a brief description of Project Four.',
-    technologies: [<FaReact className="text-black" />, <FaNodeJs className="text-black" />, <SiTailwindcss className="text-black" />],
-    codeLink: '#',
+    title: 'Treading PlatForm',
+    description: 'Working on developing a secure and user-friendly trading platform to enable real-time transactions and portfolio management.',
+    technologies: [<FaReact className="text-black" />, <FaJava className="text-black" />,<SiHibernate className="text-black" />, <SiSpringboot className="text-black" />, <SiTailwindcss className="text-black" />],
+    codeLink: 'https://github.com/nikhilshinde9250/Treading-platfomr',
   },
   {
-    title: 'Project Five',
+    title: 'Weather App',
     description: 'This is a brief description of Project Five.',
-    technologies: [<SiJavascript className="text-black" />, <SiMongodb className="text-black" />, <FaCss3Alt className="text-black" />],
+    technologies: [<SiJavascript className="text-black" />, <SiCss3 className="text-black" />, <SiHtml5 className="text-black" />],
     codeLink: '#',
   },
-  {
-    title: 'Project Six',
-    description: 'This is a brief description of Project Six.',
-    technologies: [<FaReact className="text-black" />, <FaNodeJs className="text-black" />, <SiTailwindcss className="text-black" />],
-    codeLink: '#',
-  },
+  // {
+  //   title: 'Project Six',
+  //   description: 'This is a brief description of Project Six.',
+  //   technologies: [<FaReact className="text-black" />, <FaNodeJs className="text-black" />, <SiTailwindcss className="text-black" />],
+  //   codeLink: '#',
+  // },
 ];
 
 const Projects = () => {
