@@ -37,7 +37,7 @@ const projectData = [
     title: 'Weather App',
     description: 'This is a brief description of Project Five.',
     technologies: [<SiJavascript className="text-black" />, <SiCss3 className="text-black" />, <SiHtml5 className="text-black" />],
-    codeLink: '#',
+    codeLink: 'https://nikhilshinde9250.github.io/Weather-App2nd/',
   },
   // {
   //   title: 'Project Six',
