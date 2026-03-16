@@ -234,7 +234,7 @@ const Home = () => {
                 
                 {/* Profile Image */}
                 <img
-                  src="../../public/p1.jpeg"
+                  src="/p1.jpeg"
                   alt="Profile"
                   className="w-full h-full object-cover rounded-full relative z-10 border-4 border-white dark:border-gray-800"
                 />
