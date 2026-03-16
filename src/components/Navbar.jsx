@@ -38,7 +38,7 @@ const Navbar = ({ theme, toggleTheme }) => {
           <div className="flex space-x-3 items-center">
             <div className="relative">
               <img 
-                src="../../public/p1.jpeg" 
+                src="/p1.jpeg" 
                 className="h-12 w-12 rounded-full border-2 border-accent-primary object-cover" 
                 alt="Profile" 
               />
